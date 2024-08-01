@@ -10,7 +10,7 @@ type HeaderProps = {
  * @param title - The title to display in the header
  */
 export const Header: React.FC<HeaderProps> = ({ title }) => (
-  <header className="bg-gray-800 text-white p-4 mb-4">
+  <header className="bg-gray-800 text-white p-4 mb-4 rounded">
     <Title text={title} />
   </header>
 )

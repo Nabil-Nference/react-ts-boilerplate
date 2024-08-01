@@ -27,7 +27,7 @@ const Home = () => {
   }))
 
   return (
-    <div className="p-4">
+    <div className="p-6 bg-gray-100 min-h-screen">
       <Header title="Home Page" />
       <Button label="Fetch Dog Breeds" onClick={fetchData} />
       <CardList cards={cards} />
