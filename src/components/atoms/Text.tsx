@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
 type TextProps = {
-  content: string
-}
+  content: string;
+};
 
 /**
  * Text component
@@ -10,4 +10,4 @@ type TextProps = {
  */
 export const Text: React.FC<TextProps> = ({ content }) => (
   <p className="text-base mb-2">{content}</p>
-)
+);

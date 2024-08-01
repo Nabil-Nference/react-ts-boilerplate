@@ -1,9 +1,9 @@
-import React from 'react'
-import { Title } from '../atoms/Title'
+import React from "react";
+import { Title } from "../atoms/Title";
 
 type HeaderProps = {
-  title: string
-}
+  title: string;
+};
 
 /**
  * Header component
@@ -13,4 +13,4 @@ export const Header: React.FC<HeaderProps> = ({ title }) => (
   <header className="bg-gray-800 text-white p-4 mb-4 rounded">
     <Title text={title} />
   </header>
-)
+);

@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
 type TitleProps = {
-  text: string
-}
+  text: string;
+};
 
 /**
  * Title component
@@ -10,4 +10,4 @@ type TitleProps = {
  */
 export const Title: React.FC<TitleProps> = ({ text }) => (
   <h1 className="text-2xl font-bold mb-4">{text}</h1>
-)
+);

@@ -1,11 +1,17 @@
-import React from 'react'
-import { Title } from '../atoms/Title'
-import { Text } from '../atoms/Text'
+import React from "react";
+import { Title } from "../atoms/Title";
+import { Text } from "../atoms/Text";
 
-type CardProps = {
-  title: string
-  content: string
-}
+export type CardProps = {
+  /**
+   * The title of the card
+   */
+  title: string;
+  /**
+   * The content of the card
+   */
+  content: string;
+};
 
 /**
  * Card component
@@ -17,4 +23,4 @@ export const Card: React.FC<CardProps> = ({ title, content }) => (
     <Title text={title} />
     <Text content={content} />
   </div>
-)
+);

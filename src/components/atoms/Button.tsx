@@ -1,15 +1,15 @@
-import React from 'react'
+import React from "react";
 
 type ButtonProps = {
   /**
    * The label of the button
    */
-  label: string
+  label: string;
   /**
    * Function to call on button click
    */
-  onClick: () => void
-}
+  onClick: () => void;
+};
 
 /**
  * Button component
@@ -23,4 +23,4 @@ export const Button: React.FC<ButtonProps> = ({ label, onClick }) => (
   >
     {label}
   </button>
-)
+);
